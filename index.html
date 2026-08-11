@@ -1,66 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sherill Construction Company - Interview Portal</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background: #f5f7fb;
-      margin: 0;
-      padding: 40px 20px;
-      text-align: center;
+      background: #f4f6f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .container {
-      max-width: 800px;
-      margin: auto;
       background: white;
-      padding: 60px 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      width: 90%;
+      max-width: 600px;
+      padding: 50px 30px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
     }
 
     h1 {
-      color: #0b4f8a;
-      font-size: 42px;
-      margin-bottom: 20px;
+      color: #1f2937;
+      font-size: 32px;
+      margin-bottom: 12px;
     }
 
     h2 {
-      color: #444;
-      font-size: 30px;
-      margin-bottom: 45px;
+      color: #2563eb;
+      font-size: 24px;
+      margin-bottom: 30px;
     }
 
     p {
-      color: #444;
-      font-size: 22px;
-      line-height: 1.6;
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 30px;
     }
 
-    .button {
+    .download-btn {
       display: inline-block;
-      margin-top: 30px;
-      background: #087cf5;
+      background: #2563eb;
       color: white;
       text-decoration: none;
-      padding: 20px 35px;
-      border-radius: 10px;
-      font-size: 22px;
+      padding: 15px 28px;
+      border-radius: 8px;
+      font-size: 17px;
       font-weight: bold;
+      transition: 0.2s;
     }
 
-    .button:hover {
-      background: #0668d4;
+    .download-btn:hover {
+      background: #1d4ed8;
     }
 
-    footer {
-      margin-top: 70px;
-      color: #777;
-      font-size: 18px;
+    .footer {
+      margin-top: 30px;
+      color: #888;
+      font-size: 13px;
     }
   </style>
 </head>
@@ -69,25 +77,24 @@
 
   <div class="container">
 
-    <h1>Welcome to Sherill<br>Construction Company</h1>
+    <h1>Welcome to Sherill Construction Company</h1>
 
     <h2>Interview Portal</h2>
 
     <p>
-      Please click below to continue to your scheduled interview.
+      Please download the interview application below.
     </p>
 
-    a class="button"
-   href="https://sherill122.github.io/interview/"
-   target="_blank"
-   rel="noopener noreferrer">
-      
+    <a
+      href="interview-application.pdf"
+      download
+      class="download-btn">
+      Download Interview Application
     </a>
 
-    <footer>
-      Sherill Construction Company © 2026<br>
-      Human Resources Department
-    </footer>
+    <div class="footer">
+      Sherill Construction Company
+    </div>
 
   </div>
 
