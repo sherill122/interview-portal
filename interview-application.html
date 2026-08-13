@@ -3,66 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sherill Construction Company - Interview Portal</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .container {
-      background: white;
-      width: 90%;
-      max-width: 600px;
-      padding: 50px 30px;
-      text-align: center;
-      border-radius: 16px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-    }
-
-    h1 {
-      color: #1f2937;
-      font-size: 30px;
-    }
-
-    h2 {
-      color: #2563eb;
-      font-size: 23px;
-      margin-bottom: 30px;
-    }
-
-    .download-btn {
-      display: inline-block;
-      background: #2563eb;
-      color: white;
-      text-decoration: none;
-      padding: 15px 25px;
-      border-radius: 8px;
-      font-size: 17px;
-      font-weight: bold;
-    }
-  </style>
+  <title>Sherill Construction Company - Interview Application</title>
 </head>
-
 <body>
 
-  <div class="container">
+  <h1>Sherill Construction Company</h1>
+  <h2>Interview Application</h2>
 
-    <h1>Welcome to Sherill Construction Company</h1>
+  <form>
+    <label>Full Name</label><br>
+    <input type="text" name="fullname"><br><br>
 
-    <h2>Interview Portal</h2>
+    <label>Email Address</label><br>
+    <input type="email" name="email"><br><br>
 
-    <a href="interview-application.html" class="download-btn">
-      Download Interview Application
-    </a>
+    <label>Phone Number</label><br>
+    <input type="tel" name="phone"><br><br>
 
-  </div>
+    <label>Position Applied For</label><br>
+    <input type="text" name="position"><br><br>
+
+    <label>Tell us about yourself</label><br>
+    <textarea name="about" rows="6" cols="40"></textarea><br><br>
+
+    <button type="submit">Submit Application</button>
+  </form>
 
 </body>
 </html>
